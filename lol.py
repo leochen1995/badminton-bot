@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 import time
 
-def check_booking_status(QPid,QTime):
+def check_booking_status(QPid, QTime):
     current_date = datetime.now()
 
     # 往後推 13 天
